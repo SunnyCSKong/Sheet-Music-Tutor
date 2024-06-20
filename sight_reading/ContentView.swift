@@ -15,7 +15,7 @@ struct ContentView: View {
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(.black)
-                    .padding(.vertical, 20)
+                    
 
                 NavigationLink(destination: notes()) {
                     Text("Note Recognition")
@@ -41,8 +41,7 @@ struct ContentView: View {
                         .padding(.horizontal, 20)
                 }
 
-                Text("Sunny Kong")
-                    .padding(.top,80)
+
             }
         }
     }
